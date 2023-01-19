@@ -1,0 +1,25 @@
+.program {
+  background-image: url(../images/el3.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.program__box {
+  border: 1px solid darkblue;
+  height: 100x;
+  width: 378px;
+}
+
+.program_p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.program_h1 {
+  margin-top: 161px;
+}/*# sourceMappingURL=program.css.map */
