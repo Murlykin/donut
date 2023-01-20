@@ -20,8 +20,11 @@
 
     &:hover,
         &:focus {
+                    background-color: #FFFFFF;
+                        color: var(--button);
             transform: scale(1.012);
             box-shadow: 11px 21px 93px -62px;
+            border-color: var(--button);
     }
 }
 
@@ -48,7 +51,10 @@ margin-bottom: 40px;
 margin-left: 125px;
     &:hover,
     &:focus {
+        background-color: #FFFFFF;
+        color: var(--button);
         transform: scale(1.012);
         box-shadow: 11px 21px 93px -62px;
+            border-color: var(--button);
     }
 }

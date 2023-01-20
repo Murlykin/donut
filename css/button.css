@@ -19,10 +19,13 @@
   transition: background-color 250ms var(--timing-functione);
 }
 .button:hover, .button:focus {
+  background-color: #FFFFFF;
+  color: var(--button);
   -webkit-transform: scale(1.012);
           transform: scale(1.012);
   -webkit-box-shadow: 11px 21px 93px -62px;
           box-shadow: 11px 21px 93px -62px;
+  border-color: var(--button);
 }
 
 .price__button {
@@ -47,8 +50,11 @@
   margin-left: 125px;
 }
 .price__button:hover, .price__button:focus {
+  background-color: #FFFFFF;
+  color: var(--button);
   -webkit-transform: scale(1.012);
           transform: scale(1.012);
   -webkit-box-shadow: 11px 21px 93px -62px;
           box-shadow: 11px 21px 93px -62px;
+  border-color: var(--button);
 }/*# sourceMappingURL=button.css.map */
