@@ -38,7 +38,26 @@ z-index: 1;
   flex-direction: column;
   justify-content: space-between;
 }
-.price__plas {
-  padding-left: 30px;
-  padding-right: 10px;
-}
+// .price__plas {
+//   // padding-left: 30px;
+//   padding-right: 10px;
+// }
+//  .price__imgLu {
+//   background-image: url(../images/price/Іко.png);
+//     background-position: 0 0;
+//       background-size: 1.6rem 1.6rem;
+//       background-repeat: no-repeat;
+//  }
+ .price__imgLu{
+   padding-left: 12px;
+   list-style-type: none;
+ }
+
+ .price__imgLu>li {
+   padding-left: 51px;
+    background-image: url(../images/price/Іко.png);
+   background-position: 0 0;
+   background-size: 20px 20px;
+   background-repeat: no-repeat;
+    margin: 8px 0;
+ }
