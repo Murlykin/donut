@@ -7,14 +7,15 @@
 
 .price__items > .price__item {
   display: block;
-  background-color: #fafbfb;
   background-repeat: no-repeat;
   background-position: top center;
   width: 395px;
   height: 610px;
   border-radius: 25px;
   padding-top: 28px;
-  z-index: 1;
+  background-image: url(../images/price/colorful-and-tasty-donuts2.png);
+  background-repeat: no-repeat;
+  background-position: 25% 75%;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -30,9 +31,7 @@
 }
 
 .price__img {
-  background-image: url(../images/price/colorful-and-tasty-donuts2.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #fafbfb;
 }
 
 .price__items .price__item {
@@ -65,4 +64,5 @@
 .price__hed {
   text-align: center;
   margin-bottom: 27px;
+  margin-top: 101px;
 }/*# sourceMappingURL=price.css.map */

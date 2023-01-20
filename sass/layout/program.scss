@@ -3,9 +3,10 @@
     url(../images/el3.png);
         background-repeat: no-repeat;
         background-position: top center;
+        
 }
 .program__box {
-        border: 1px solid darkblue;
+        // border: 1px solid darkblue;
             height: 100x;
             width: 378px;
 }
@@ -15,6 +16,7 @@
         margin-top: 24px;
 justify-content: space-between
 }
-.program_h1 {
+.program__hed {
     margin-top: 161px;
+    text-align: center;
 }
