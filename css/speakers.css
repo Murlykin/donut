@@ -12,7 +12,7 @@
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 140px;
+  gap: 30px;
 }
 @media screen and (min-width: 1200px) {
   .speakers__crew {
@@ -33,4 +33,10 @@
   .speakers__crew > .items {
     width: 270px;
   }
+}
+
+.speakers__img {
+  width: 288px;
+  height: 288px;
+  border-radius: 50px;
 }/*# sourceMappingURL=speakers.css.map */

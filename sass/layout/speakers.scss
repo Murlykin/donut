@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 140px;
+    gap: 30px;
 
 
     @media screen and (min-width: 1200px) {
@@ -29,4 +29,9 @@
             width: 270px;
         }
     }
+}
+.speakers__img {
+    width: 288px;
+    height: 288px;
+    border-radius: 50px;
 }
