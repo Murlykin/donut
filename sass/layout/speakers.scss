@@ -2,3 +2,31 @@
     margin-top: 100px;
     text-align: center;
 }
+
+.speakers__crew {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 140px;
+
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+
+        &>.items {
+            background-color: var(--body-background-color);
+
+        }
+    }
+
+    &>.items {
+        background-color: var(--body-background-color);
+
+
+
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+        }
+    }
+}

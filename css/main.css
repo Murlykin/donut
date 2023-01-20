@@ -124,7 +124,7 @@ body {
   transition: background-color 250ms var(--timing-functione);
 }
 .button:hover, .button:focus {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: var(--button);
   -webkit-transform: scale(1.012);
           transform: scale(1.012);
@@ -155,7 +155,7 @@ body {
   margin-left: 125px;
 }
 .price__button:hover, .price__button:focus {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: var(--button);
   -webkit-transform: scale(1.012);
           transform: scale(1.012);
@@ -364,6 +364,38 @@ body {
 .speakers__hed {
   margin-top: 100px;
   text-align: center;
+}
+
+.speakers__crew {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 140px;
+}
+@media screen and (min-width: 1200px) {
+  .speakers__crew {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .speakers__crew > .items {
+    background-color: var(--body-background-color);
+  }
+}
+.speakers__crew > .items {
+  background-color: var(--body-background-color);
+}
+@media screen and (min-width: 1200px) {
+  .speakers__crew > .items {
+    width: 270px;
+  }
 }
 
 .reviews__hed {
