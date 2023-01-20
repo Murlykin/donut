@@ -331,11 +331,17 @@ body {
 
 .price__imgLu > li {
   padding-left: 51px;
+  padding-right: 15px;
   background-image: url(../images/price/Іко.png);
   background-position: 0 0;
   background-size: 20px 20px;
   background-repeat: no-repeat;
-  margin: 8px 0;
+  margin: 8px 10px;
+}
+
+.price__hed {
+  text-align: center;
+  margin-bottom: 27px;
 }
 
 :root {
