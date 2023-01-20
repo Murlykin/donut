@@ -19,7 +19,7 @@
   transition: background-color 250ms var(--timing-functione);
 }
 .button:hover, .button:focus {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: var(--button);
   -webkit-transform: scale(1.012);
           transform: scale(1.012);
@@ -50,7 +50,7 @@
   margin-left: 125px;
 }
 .price__button:hover, .price__button:focus {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: var(--button);
   -webkit-transform: scale(1.012);
           transform: scale(1.012);

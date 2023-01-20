@@ -91,6 +91,18 @@ body {
   margin-left: -30px;
 }
 
+.hidden-visally {
+  position: fixed;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.hidden-visally .description__text {
+  color: var(--secondory-text-color);
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
 .button {
   color: var(--button-text);
   background-color: var(--button);

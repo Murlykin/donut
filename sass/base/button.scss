@@ -1,60 +1,60 @@
 .button {
-    color: var(--button-text);
-    background-color: var(--button);
-    display: inline-block;
-    margin-top: 28px;
-    padding: 10px 32px;
-    min-width: 145px;
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    box-shadow: 10px 15px 25px 0px #E8B7B773;
-    border-radius: 25px;
-    
-    text-align: center;
-    
-    border-color: transparent;
-    transition: background-color 250ms var(--timing-functione);
+  color: var(--button-text);
+  background-color: var(--button);
+  display: inline-block;
+  margin-top: 28px;
+  padding: 10px 32px;
+  min-width: 145px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  box-shadow: 10px 15px 25px 0px #e8b7b773;
+  border-radius: 25px;
 
-    &:hover,
-        &:focus {
-                    background-color: #FFFFFF;
-                        color: var(--button);
-            transform: scale(1.012);
-            box-shadow: 11px 21px 93px -62px;
-            border-color: var(--button);
-    }
+  text-align: center;
+
+  border-color: transparent;
+  transition: background-color 250ms var(--timing-functione);
+
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+    color: var(--button);
+    transform: scale(1.012);
+    box-shadow: 11px 21px 93px -62px;
+    border-color: var(--button);
+  }
 }
 
 .price__button {
-    color: var(--button-text);
-    background-color: var(--button);
-    display: inline-block;
+  color: var(--button-text);
+  background-color: var(--button);
+  display: inline-block;
 
-    padding: 10px 32px;
-    min-width: 145px;
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    box-shadow: 10px 15px 25px 0px #E8B7B773;
-    border-radius: 25px;
+  padding: 10px 32px;
+  min-width: 145px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  box-shadow: 10px 15px 25px 0px #e8b7b773;
+  border-radius: 25px;
 
-    text-align: center;
+  text-align: center;
 
-    border-color: transparent;
-    transition: background-color 250ms var(--timing-functione);
-margin-bottom: 40px;
-margin-left: 125px;
-    &:hover,
-    &:focus {
-        background-color: #FFFFFF;
-        color: var(--button);
-        transform: scale(1.012);
-        box-shadow: 11px 21px 93px -62px;
-            border-color: var(--button);
-    }
+  border-color: transparent;
+  transition: background-color 250ms var(--timing-functione);
+  margin-bottom: 40px;
+  margin-left: 125px;
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+    color: var(--button);
+    transform: scale(1.012);
+    box-shadow: 11px 21px 93px -62px;
+    border-color: var(--button);
+  }
 }
