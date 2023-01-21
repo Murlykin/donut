@@ -272,14 +272,17 @@ body {
   background-image: url(../images/el3.png);
   background-repeat: no-repeat;
   background-position: top center;
+  margin-top: 161px;
 }
 
 .program__box {
-  height: 100x;
-  width: 378px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 143px;
 }
 
-.program_p {
+.program__p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -290,8 +293,20 @@ body {
 }
 
 .program__hed {
-  margin-top: 161px;
-  text-align: center;
+  text-align: left;
+}
+
+.program__basic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.program__box1 {
+  margin-top: -160px;
 }
 
 .price__items {

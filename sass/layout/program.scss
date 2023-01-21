@@ -2,19 +2,27 @@
   background-image: url(../images/el3.png);
   background-repeat: no-repeat;
   background-position: top center;
+  margin-top: 161px;
 }
 .program__box {
-  // border: 1px solid darkblue;
-  height: 100x;
-  width: 378px;
+  display: flex;
+margin-left: 143px;
 }
 
-.program_p {
+.program__p {
   display: flex;
   margin-top: 24px;
   justify-content: space-between;
 }
 .program__hed {
-  margin-top: 161px;
-  text-align: center;
+ 
+  text-align: left;
+}
+.program__basic{
+  display: flex;
+  // flex-direction: column;
+    justify-content: space-between;
+}
+.program__box1 {
+  margin-top:  -160px;
 }
