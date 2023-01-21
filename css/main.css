@@ -215,6 +215,7 @@ body {
   margin-top: 65px;
   margin-bottom: 10px;
   padding-bottom: 10px;
+  width: 100%;
 }
 
 .head_h2 {
@@ -375,7 +376,7 @@ body {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 30px;
+  gap: 32px;
 }
 @media screen and (min-width: 1200px) {
   .speakers__crew {
@@ -415,13 +416,94 @@ body {
   text-align: center;
 }
 
-.speakers__tram {
+.speakers__team {
   margin-bottom: 20px;
+}
+
+.speakers__text {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text);
+  position: relative;
+  display: block;
+  list-style: none;
+}
+
+.speakers__textT {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text);
+  position: relative;
+  display: block;
+  list-style: none;
 }
 
 .reviews__hed {
   margin-top: 100px;
   text-align: center;
+}
+
+.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 22px;
+}
+
+.reviews__conteiner {
+  display: block;
+  padding: 8px 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.reviews__position {
+  margin-top: 148px;
+}
+
+.reviews__textT {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text);
+  position: relative;
+  display: block;
+  list-style: none;
+}
+
+.reviews__text {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text);
+  position: relative;
+  display: block;
+  text-align: center;
+  list-style: none;
 }
 
 .registration__hed {

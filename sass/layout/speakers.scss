@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 32px;
 
 
     @media screen and (min-width: 1200px) {
@@ -44,6 +44,32 @@
     text-align: center;
 
 }
-.speakers__tram {
+.speakers__team {
     margin-bottom: 20px;
+}
+.speakers__text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--text);
+    position: relative;
+    display: block;
+
+    list-style: none;
+}
+.speakers__textT {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--text);
+    position: relative;
+    display: block;
+
+    list-style: none;
 }
