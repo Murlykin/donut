@@ -11,11 +11,6 @@ html {
           box-sizing: inherit;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 .list,
 .link-focus,
 .ul-address {
@@ -565,6 +560,40 @@ body {
 .registration__hed {
   margin-top: 100px;
   text-align: center;
+}
+
+.registration__box {
+  margin-top: 28px;
+  margin-left: 123px;
+  margin-right: 123px;
+}
+
+.registration__img {
+  z-index: -1;
+  position: relative;
+  left: 55%;
+}
+
+.registration__img1 {
+  max-width: 100%;
+  z-index: 1;
+  position: absolute;
+}
+
+.registration__img2 {
+  z-index: 5;
+  position: relative;
+  right: 44%;
+}
+
+.registration__box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 5;
+  position: relative;
+  margin-left: 213px;
+  margin-top: -150px;
 }
 
 .contact__hed {
