@@ -33,6 +33,48 @@
   display: flex;
   z-index: 5;
   position: relative;
-  margin-left: 213px;
-  margin-top: -150px;
+  margin-left: 173px;
+  margin-top: -180px;
+  gap: 10px;
+}
+
+.registration__text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text);
+  list-style: none;
+}
+
+.registration__textn {
+  font-family: "Montserrat";
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text);
+  list-style: none;
+}
+
+.registration__box2 {
+  margin-top: -29px;
+}
+
+.registration__decor {
+  background-image: url(../images/registration/decor2.png);
+}
+
+.registration__box-position {
+  margin-right: 40px;
+}
+
+.registration__img3 {
+  z-index: 5;
+  position: relative;
+  left: -340px;
+  top: -50px;
 }/*# sourceMappingURL=registration.css.map */
