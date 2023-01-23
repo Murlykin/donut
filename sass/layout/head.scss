@@ -46,3 +46,21 @@
 .header__text {
   padding-top: 36px;
 }
+.bottom_position {
+    margin-left: 16px;
+}
+
+.header__link {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 18px;
+  margin-left: 16px;
+  margin-top: 32px;
+  fill: var(--text);
+}
+
+.header__link>.item {
+  display: flex;
+
+}

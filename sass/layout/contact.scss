@@ -50,3 +50,18 @@
 
     list-style: none;
 }
+
+.contact__link {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 37px;
+    fill: var(--text);
+}
+
+.contact__link>.item {
+    display: flex;
+    
+}
