@@ -59,9 +59,20 @@
     justify-content: center;
     margin-top: 37px;
     fill: var(--text);
+ 
+
 }
+
 
 .contact__link>.item {
     display: flex;
-    
-}
+       &:hover,
+        &:focus {
+        fill: var(--button);
+}}
+
+.icones {
+        &:hover,
+        &:focus {
+        fill: var(--button);
+}}

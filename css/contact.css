@@ -78,4 +78,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.contact__link > .item:hover, .contact__link > .item:focus {
+  fill: var(--button);
+}
+
+.icones:hover, .icones:focus {
+  fill: var(--button);
 }/*# sourceMappingURL=contact.css.map */
