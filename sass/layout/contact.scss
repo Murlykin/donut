@@ -66,10 +66,8 @@
 
 .contact__link>.item {
     display: flex;
-       &:hover,
-        &:focus {
-        fill: var(--button);
-}}
+
+}
 
 .icones {
         &:hover,
