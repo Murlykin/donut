@@ -28,6 +28,7 @@
   text-align: center;
   margin-left: 443px;
   margin-right: 443px;
+  gap: 18px;
 }
 
 .contact__input {
@@ -44,4 +45,16 @@
   background-color: var(--body);
   background: var(--body);
   border-bottom: 1px solid rgb(46, 37, 32);
+}
+
+.contact__text {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text);
+  position: relative;
+  display: block;
+  list-style: none;
 }/*# sourceMappingURL=contact.css.map */
