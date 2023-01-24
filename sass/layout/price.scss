@@ -1,7 +1,7 @@
 .price__items {
   display: flex;
-  // z-index: 1;
-  // position: relative;
+  z-index: 2;
+  position: relative;
 gap: 32px;
 }
 .price__items > .price__item {
