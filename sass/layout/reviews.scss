@@ -54,3 +54,16 @@ margin: 0 auto;
         background-repeat: no-repeat;
         background-position: 50% 30%;
 }
+.reviews__f {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            margin-top: 27px;
+}
+.reviews__f1 {
+    display: flex;
+     gap: 10px;
+                justify-content: center;
+                    flex-wrap: wrap;
+
+}
