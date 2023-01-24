@@ -47,3 +47,10 @@ margin: 0 auto;
     text-align: center;
     list-style: none;
 }
+.reviews__imgDec {
+    z-index: 1;
+    position: relative;
+    background-image: url(../images/reviews/drew.png);
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+}

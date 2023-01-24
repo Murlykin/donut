@@ -1,12 +1,10 @@
 .registration__hed {
-  margin-top: 100px;
+  margin-top: 95px;
   text-align: center;
 }
 
 .registration__box {
-  margin-top: 28px;
-  margin-left: 123px;
-  margin-right: 123px;
+  margin: 28px 123px;
 }
 
 .registration__img {
@@ -67,6 +65,12 @@
 
 .registration__decor {
   background-image: url(../images/registration/decor2.png);
+  background-repeat: no-repeat;
+  background-position: 60% 80%;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  position: relative;
 }
 
 .registration__box-position {

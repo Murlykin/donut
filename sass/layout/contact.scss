@@ -1,6 +1,7 @@
 .contact__hed {
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .registration__textn {
@@ -59,14 +60,10 @@
     justify-content: center;
     margin-top: 37px;
     fill: var(--text);
- 
-
 }
-
 
 .contact__link>.item {
     display: flex;
-
 }
 
 .icones {
@@ -74,3 +71,11 @@
         &:focus {
         fill: var(--button);
 }}
+
+.contact__imgDec {
+    z-index: 1;
+    position: relative;
+    background-image: url(../images/contact/deccont.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}

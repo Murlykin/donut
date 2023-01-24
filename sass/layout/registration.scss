@@ -1,12 +1,13 @@
 .registration__hed {
-    margin-top: 100px;
+    margin-top: 95px;
     text-align: center;
 }
 .registration__box {
     // display: flex;
-    margin-top: 28px;
-    margin-left: 123px;
-    margin-right: 123px;
+    // margin-top: 28px;
+    // margin-left: 123px;
+    // margin-right: 123px;
+    margin: 28px 123px;
     // justify-content: center;
 }
 .registration__img {
@@ -64,7 +65,14 @@ margin-top: 14px;
 }
 .registration__decor {
     background-image: url(../images/registration/decor2.png);
-}
+        background-repeat: no-repeat;
+            background-position: 60% 80%;
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+                z-index: 1;
+                    position: relative;
+ }
+
 .registration__box-position {
 margin-right: 40px;
 

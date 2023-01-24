@@ -414,6 +414,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 32px;
 }
 
 .price__items > .price__item {
@@ -435,10 +436,6 @@ body {
           transform: scale(1.012);
   -webkit-box-shadow: 11px 21px 93px -62px;
           box-shadow: 11px 21px 93px -62px;
-}
-
-.price__items .price__item + .price__item {
-  margin-left: 32px;
 }
 
 .price__img {
@@ -475,7 +472,17 @@ body {
 .price__hed {
   text-align: center;
   margin-bottom: 27px;
-  margin-top: 101px;
+}
+
+.price__imgDec {
+  z-index: 1;
+  position: relative;
+  margin-top: 71px;
+  margin-bottom: 10px;
+  padding: 50px 0;
+  background-image: url(../images/price/decpr.png);
+  background-repeat: no-repeat;
+  background-position: 55% 50%;
 }
 
 .speakers__hed {
@@ -622,15 +629,21 @@ body {
   list-style: none;
 }
 
+.reviews__imgDec {
+  z-index: 1;
+  position: relative;
+  background-image: url(../images/reviews/drew.png);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+}
+
 .registration__hed {
-  margin-top: 100px;
+  margin-top: 95px;
   text-align: center;
 }
 
 .registration__box {
-  margin-top: 28px;
-  margin-left: 123px;
-  margin-right: 123px;
+  margin: 28px 123px;
 }
 
 .registration__img {
@@ -691,6 +704,12 @@ body {
 
 .registration__decor {
   background-image: url(../images/registration/decor2.png);
+  background-repeat: no-repeat;
+  background-position: 60% 80%;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  position: relative;
 }
 
 .registration__box-position {
@@ -723,6 +742,7 @@ body {
 .contact__hed {
   margin-top: 100px;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .registration__textn {
@@ -804,6 +824,14 @@ body {
 
 .icones:hover, .icones:focus {
   fill: var(--button);
+}
+
+.contact__imgDec {
+  z-index: 1;
+  position: relative;
+  background-image: url(../images/contact/deccont.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
 }
 
 .footer {

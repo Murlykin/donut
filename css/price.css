@@ -3,6 +3,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 32px;
 }
 
 .price__items > .price__item {
@@ -24,10 +25,6 @@
           transform: scale(1.012);
   -webkit-box-shadow: 11px 21px 93px -62px;
           box-shadow: 11px 21px 93px -62px;
-}
-
-.price__items .price__item + .price__item {
-  margin-left: 32px;
 }
 
 .price__img {
@@ -64,5 +61,15 @@
 .price__hed {
   text-align: center;
   margin-bottom: 27px;
-  margin-top: 101px;
+}
+
+.price__imgDec {
+  z-index: 1;
+  position: relative;
+  margin-top: 71px;
+  margin-bottom: 10px;
+  padding: 50px 0;
+  background-image: url(../images/price/decpr.png);
+  background-repeat: no-repeat;
+  background-position: 55% 50%;
 }/*# sourceMappingURL=price.css.map */
