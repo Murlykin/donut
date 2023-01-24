@@ -1,7 +1,6 @@
 .program {
-  background-image: url(../images/el3.png);
-  background-repeat: no-repeat;
-  background-position: top center;
+  z-index: 2;
+  position: relative;
   margin-top: 161px;
 }
 
@@ -78,4 +77,11 @@
 
 .program__tex {
   padding-right: 20px;
+}
+
+.program__img {
+  z-index: -1;
+  position: absolute;
+  margin-top: -201px;
+  margin-left: 111px;
 }/*# sourceMappingURL=program.css.map */

@@ -310,6 +310,9 @@ body {
 
 .about__2 {
   margin-left: 32px;
+  background-image: url(../images/about/el2.png);
+  background-repeat: no-repeat;
+  background-position: 25% 15%;
 }
 
 .about__box {
@@ -320,9 +323,8 @@ body {
 }
 
 .program {
-  background-image: url(../images/el3.png);
-  background-repeat: no-repeat;
-  background-position: top center;
+  z-index: 2;
+  position: relative;
   margin-top: 161px;
 }
 
@@ -401,6 +403,13 @@ body {
   padding-right: 20px;
 }
 
+.program__img {
+  z-index: -1;
+  position: absolute;
+  margin-top: -201px;
+  margin-left: 111px;
+}
+
 .price__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -470,7 +479,7 @@ body {
 }
 
 .speakers__hed {
-  margin-top: 100px;
+  margin-top: -61px;
   text-align: center;
 }
 

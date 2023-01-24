@@ -12,6 +12,9 @@
 
 .about__2 {
   margin-left: 32px;
+  background-image: url(../images/about/el2.png);
+  background-repeat: no-repeat;
+  background-position: 25% 15%;
 }
 
 .about__box {
