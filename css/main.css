@@ -125,6 +125,11 @@ body {
   -webkit-transition: 250ms var(--timing-functione);
   transition: 250ms var(--timing-functione);
 }
+.button:active {
+  color: var(--button-text);
+  background: var(--button);
+  border: 2px solid var(--button-text);
+}
 
 .price__button {
   color: var(--button-text);
@@ -153,6 +158,11 @@ body {
   border: 2px solid var(--button);
   -webkit-transition: 250ms var(--timing-functione);
   transition: 250ms var(--timing-functione);
+}
+.price__button:active {
+  color: var(--button-text);
+  background: var(--button);
+  border: 2px solid var(--button-text);
 }
 
 .nav__link {

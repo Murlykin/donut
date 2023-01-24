@@ -18,13 +18,21 @@
   transition: background-color 250ms var(--timing-functione);
 
   &:hover,
-  &:focus {
+  &:focus    {
     background-color: #ffffff;
       color: var(--button);
       border: 2px solid var(--button);
-      transition: 250ms var(--timing-functione);
-  }
+      transition: 250ms var(--timing-functione);}
+ &:active {
+  color: var(--button-text);
+  background: var(--button);
+  border: 2px solid var(--button-text);
+    }
+  
 }
+
+
+
 
 .price__button {
   color: var(--button-text);
@@ -54,5 +62,10 @@
     border: 2px solid var(--button);
     transition: 250ms var(--timing-functione);
   }
+     &:active {
+       color: var(--button-text);
+       background: var(--button);
+       border: 2px solid var(--button-text);
+     }
 }
 
