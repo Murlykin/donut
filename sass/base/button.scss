@@ -20,10 +20,9 @@
   &:hover,
   &:focus {
     background-color: #ffffff;
-    color: var(--button);
-    transform: scale(1.012);
-    box-shadow: 11px 21px 93px -62px;
-    border-color: var(--button);
+      color: var(--button);
+      border: 2px solid var(--button);
+      transition: 250ms var(--timing-functione);
   }
 }
 
@@ -52,8 +51,8 @@
   &:focus {
     background-color: #ffffff;
     color: var(--button);
-    transform: scale(1.012);
-    box-shadow: 11px 21px 93px -62px;
-    border-color: var(--button);
+    border: 2px solid var(--button);
+    transition: 250ms var(--timing-functione);
   }
 }
+

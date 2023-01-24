@@ -21,11 +21,9 @@
 .button:hover, .button:focus {
   background-color: #ffffff;
   color: var(--button);
-  -webkit-transform: scale(1.012);
-          transform: scale(1.012);
-  -webkit-box-shadow: 11px 21px 93px -62px;
-          box-shadow: 11px 21px 93px -62px;
-  border-color: var(--button);
+  border: 2px solid var(--button);
+  -webkit-transition: 250ms var(--timing-functione);
+  transition: 250ms var(--timing-functione);
 }
 
 .price__button {
@@ -52,9 +50,7 @@
 .price__button:hover, .price__button:focus {
   background-color: #ffffff;
   color: var(--button);
-  -webkit-transform: scale(1.012);
-          transform: scale(1.012);
-  -webkit-box-shadow: 11px 21px 93px -62px;
-          box-shadow: 11px 21px 93px -62px;
-  border-color: var(--button);
+  border: 2px solid var(--button);
+  -webkit-transition: 250ms var(--timing-functione);
+  transition: 250ms var(--timing-functione);
 }/*# sourceMappingURL=button.css.map */
